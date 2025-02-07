@@ -6,6 +6,8 @@ public static class MauiProgram
     {
         var builder = MauiApp.CreateBuilder();
         builder
+
+            //test comment 
             .UseMauiApp<App>()
             .ConfigureFonts(fonts =>
             {
